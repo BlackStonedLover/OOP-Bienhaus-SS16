@@ -11,6 +11,7 @@ public class start
         int reihe,spalte;
         while(true)
         {
+                g.DisplayBoard();
             System.out.println("Spieler " + Spieler + " ist jetzt an der Reihe: ");
             System.out.println("Bitte Feld eingeben: ");
             spalte = sc.nextInt();
@@ -26,15 +27,23 @@ public class start
            g.DisplayBoard();
           if(g.CheckForWinner())
 		  {
+              g.ClearField();
+              g.DisplayBoard();
 			  System.out.println("Spieler " + Spieler + " hat gewonnen!");
 			  break;
 		  }
-           if(g.CheckForDraw())
+           else if(g.CheckForDraw())
 		   {
+               g.ClearField();
+               g.DisplayBoard();
 			   System.out.println("Das Spiel ist unentschieden! Kein Spielzug mehr möglich!");
 			   break;
 		   }
+           else {g.ClearField();}
            Spieler = g.SpielerWechsel(Spieler);
+            
         }
+        
+        
     }
 }

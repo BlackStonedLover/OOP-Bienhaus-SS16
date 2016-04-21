@@ -34,6 +34,22 @@ public class gamelogik
    }
     public boolean CheckForWinner()
     {
+        if(Spielbrett[0][0] == Spielbrett[1][0] && Spielbrett[1][0] == Spielbrett[2][0] && (Spielbrett[0][0] == 'x' || Spielbrett[0][0] == 'o'))
+       {System.out.println("1"); return true;}
+        else if(Spielbrett[0][1] == Spielbrett[1][1] && Spielbrett[1][1] == Spielbrett[2][1] &&(Spielbrett[0][1] == 'x' || Spielbrett[0][1] == 'o'))
+        {System.out.println("2"); return true;}
+        else if(Spielbrett[0][2] == Spielbrett[1][2] && Spielbrett[1][2] == Spielbrett[2][2] && (Spielbrett[0][2] == 'x' || Spielbrett[0][2] == 'o' ))   
+        {System.out.println("3"); return true;}
+        else if(Spielbrett[0][0] == Spielbrett[0][1] && Spielbrett[0][1] == Spielbrett[0][2] && (Spielbrett[0][0] == 'x' || Spielbrett[0][0] == 'o' ))   
+        {System.out.println("3"); return true;}
+        else if(Spielbrett[1][0] == Spielbrett[1][1] && Spielbrett[1][1] == Spielbrett[1][2] && (Spielbrett[1][0] == 'x' || Spielbrett[1][0] == 'o' ))   
+        {System.out.println("3"); return true;}
+        else if(Spielbrett[2][0] == Spielbrett[2][1] && Spielbrett[2][1] == Spielbrett[2][2] && (Spielbrett[2][0] == 'x' || Spielbrett[2][0] == 'o' ))   
+        {System.out.println("3"); return true;}
+        else if(Spielbrett[0][0] == Spielbrett[1][1] && Spielbrett[1][1] == Spielbrett[2][2] && (Spielbrett[0][0] == 'x' || Spielbrett[0][0] == 'o' ))   
+        {System.out.println("3"); return true;}
+        else if(Spielbrett[2][0] == Spielbrett[1][1] && Spielbrett[1][1] == Spielbrett[0][2] && (Spielbrett[2][0] == 'x' || Spielbrett[2][0] == 'o' ))   
+        {System.out.println("3"); return true;}
     return false; 
     }
     public boolean CheckForDraw()
@@ -54,5 +70,10 @@ public class gamelogik
         if(player == 'o')
         neuerSpieler = 'x';
         return neuerSpieler;
+    }
+    public void ClearField()
+    {
+           for (int i=0; i<25; i++)
+             System.out.println();
     }
 }
