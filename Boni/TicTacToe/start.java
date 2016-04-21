@@ -4,7 +4,7 @@ public class start
     public static void main (String[] args)
     {
         Scanner sc = new Scanner(System.in);
-        Game g = new Game();
+        gamelogik g = new gamelogik();
         g.initGame();
         
         char Spieler = 'x';
@@ -24,9 +24,17 @@ public class start
             }
            g.SpielSteinplatzieren(Spieler, spalte, reihe);
            g.DisplayBoard();
-           g.CheckForWinner();
-           g.CheckForDraw();
-           g.SpielerWechsel(Spieler);
+          if(g.CheckForWinner())
+		  {
+			  System.out.println("Spieler " + Spieler + " hat gewonnen!");
+			  break;
+		  }
+           if(g.CheckForDraw())
+		   {
+			   System.out.println("Das Spiel ist unentschieden! Kein Spielzug mehr möglich!");
+			   break;
+		   }
+           Spieler = g.SpielerWechsel(Spieler);
         }
     }
 }

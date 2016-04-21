@@ -8,12 +8,16 @@ public class gamelogik
             Spielbrett[i][d] = ' ';
     }
     
-    public boolean checkIfIllegal(int row int column)
+    public boolean checkIfIllegal(int row, int column)
     {
-        if(row >2 || column > 2 || row < 0 || column < 0  )
+        if(row >2 || column > 2 || row < 0 || column < 0)
+		{
         return true;
-        if(Spielbrett[column][row] == 'x' || Spielbrett[column][row])
-        return true;
+		}
+        else if(Spielbrett[column][row] == 'x' || Spielbrett[column][row] == 'o')
+		{
+			return true;
+		}
         
         return false;
     }
@@ -21,19 +25,26 @@ public class gamelogik
         Spielbrett[spalte][reihe] = player;
     }
    public void DisplayBoard(){
-       System.out.println("0 " + Spielbrett[0][0] + " |" + Spielbrett[1][0] + " |" + Spielbrett[2][0] );
-       System.out.println("--|--|--");
-       Systen.out.println("1 " + Spielbrett[0][1] + " |" + Spielbrett[1][1] + " |" + Spielbrett[2][1]);
-       System.out.println("--|--|--");
-       System.out.println("2 " + Spielbrett[0][2] + " |" +Spielbrett[1][2] + " |" + Spielbrett[2][2]);
+       System.out.println("0 " + Spielbrett[0][0] + "| " + Spielbrett[1][0] + "|" + Spielbrett[2][0] );
+       System.out.println(" --|--|--");
+       System.out.println("1 " + Spielbrett[0][1] + "| " + Spielbrett[1][1] + "|" + Spielbrett[2][1]);
+       System.out.println(" --|--|--");
+       System.out.println("2 " + Spielbrett[0][2] + "| " +Spielbrett[1][2] + "|" + Spielbrett[2][2]);
+	   System.out.println(" 0  1  2");
    }
     public boolean CheckForWinner()
     {
-    return false;    
+    return false; 
     }
     public boolean CheckForDraw()
     {
-        return false;
+     	for(int i =0; i <3;i++)
+		for(int p = 0; p <3;p++)
+			if(Spielbrett[i][p] == ' ')
+				return false;
+			
+	
+				return true;
     }
     public char SpielerWechsel(char player)
     {
