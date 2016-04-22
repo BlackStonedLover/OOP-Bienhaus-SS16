@@ -1,4 +1,4 @@
-/*
+/**
 * Mit dieser Klasse wird "Hallo Welt!" in der Konsole ausgegeben.
 * In Java muss jede Funktion ( Methode) in einer Klasse sein. Klassennamen in diesem Beispiel HelloWorld 
 * ( Achtung muss mit Dateinamen übereinstimmen!)

@@ -1,4 +1,4 @@
-/*
+/**
 * Aufgabe 1.2
 */
 
@@ -8,6 +8,7 @@ public class Wahlberechtigung
 {
     public static void main ( String [] args)
     {
+       
        Scanner sc = new Scanner (System.in);
        System.out.print("Bitte geben sie ihren Vornamen ein: ");
        String vorname = sc.next();

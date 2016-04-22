@@ -1,0 +1,18 @@
+Kommentare:
+Arten:
+
+1 Inline / Zeichelenkommentare   =>//
+2 Block -/ mehrzeilige Kommentare => von /*  bis */
+3 Dokumentationskommentare  => von /** bis */
+
+
+Beispiel:
+/** Taschenrechner
+  * @author Konstantin Kühn
+  * @version 0.9
+  */ (3)
+  public class Taschenrechner{
+    public static void main (String[] args){
+    int a;              // erster Wert (1) => wird nach dem doppelten Slash vom Compiler(Computer ignoriert)
+    }
+  }

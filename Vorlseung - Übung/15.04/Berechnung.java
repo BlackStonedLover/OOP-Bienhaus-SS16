@@ -1,4 +1,4 @@
-/*
+/**
 * Eine Klasse die zwei Zahlen addiert und in einer Variable speichert.
 * Diese Variable wird dann ausgegeben in der Konsole.
 */

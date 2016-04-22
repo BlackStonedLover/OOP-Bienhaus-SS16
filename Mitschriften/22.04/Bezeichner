@@ -1,0 +1,55 @@
+Bezeichner:
+ Namen für Variable, Methoden, Klassen
+ - aus "Buchstaben, Zahlen, _, $
+ - Beginn nie mit Zahl
+ 
+
+/******************************/
+Okay:
+int Wert1;
+int Wert2;
+/****************************/
+Verboten:
+int 1name;
+int 2wert; 
+/******************************/
+Namenskonventionen:
+-Bezeichner != reservierte Wörter
+z.B. int class;
+ int => Datentyp
+ "class" => ist ein reserviertes Wort!
+
+ -"sprechende Namen" =>
+ int k;
+ int y;
+/********************/
+/**besser wäre:*****/
+/******************/
+ int wert1;
+ int wert2;
+ int ergebnis;
+ 
+ Namenkonvention =>  Regeln für Namen // werden vom Compiler nicht beachtet
+ -Klassen beginnen mit Großbuchstaben
+bsp: public class Taschenrechner(){}
+
+- Variablen, Methoden beginnen mit einem Kleinbuchstaben
+bsp: int wert1; 
+ 
+ -zusammengesetzte Bezeichner
+    -camel case // Binnenmajuskel)
+    z.B.  InputStream
+    Input => Klasse 
+    Stream => zweiter Begriff
+    weiteres bsp:
+    useRadix()
+    use => klein weil Methoden
+    Radix => CamelCase
+  
+ Konstanten: nur Großbuchstaben:
+ bsp: final double PI = 3.1415; // nicht const => const kommt aus c++
+ 
+ Ausnahme:
+ i,j für schleife
+ for(int i = 0; i < 100 ; i++){
+ }

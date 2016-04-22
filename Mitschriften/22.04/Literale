@@ -1,0 +1,10 @@
+Literale
+    -Wert ändert sich während des Programmes nicht
+    - Bsp:
+    Zahlen a=23; // a => Variable "23" => fest
+    
+    -Wahrheitswerte => true,false;
+    - Zeichen: 'c' 
+    "c" => c String / Zeichenkette
+    
+    Null- Literal für Referenzen => null

@@ -1,4 +1,4 @@
-/*
+/**
 * In dieser Klasse wird der Nutzer aufgefordert Zahlen einzugeben, welche danach addiert werden
 */
 
