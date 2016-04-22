@@ -1,0 +1,21 @@
+Operatoren
+
+    monadische => Ein Operand "++" "--"
+        int a =10;
+        a++; // => a = a + 1;
+    dyadische => zwei Operanden
+        a + b
+        
+    triadische => drei Operaden
+        a >=0 ? abs=a : abs:-a;
+        =>
+        if(a>=0)
+        {
+        abs = a;
+        }
+        else
+        {
+        abs =-a;
+        }
+        
+        

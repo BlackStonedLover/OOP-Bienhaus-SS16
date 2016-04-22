@@ -1,3 +1,22 @@
 Trennzeichen
     - Leerzeichen, Tabulator, Zeilenende, Kommentare
       => haben keine Bedeutung !
+      
+      -Operatoren +,-,*,\,...., a + b
+      
+      Interpunktionszeichen
+      vgl:
+      In der Deutschen Sprache:
+      => Fertig?
+      => Fertig.
+      => Fertig!
+      
+      Im Programmieren:
+      . , ; ) ( []{}
+      public static void main (String[] args) // "()" => Parameterliste ; 
+      { // "{" Beginn eines Blocks
+        int a;   // ; => Ende einer Anweisung
+        System.out.println("Hallo "); // System; output; print; line; "()" => Parameterlist
+      } // "}" Ende eines  Blocks
+      
+      
