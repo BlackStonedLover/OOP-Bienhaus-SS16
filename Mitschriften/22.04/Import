@@ -1,8 +1,0 @@
-Import - Anweisungen:
-Ziel : z.B. math.abs(..)
-            math.cos(..)
-    
-    => wo? java.lang.Math
-    
-    => am Anfang des Codes: import java.lang.Math;
-    
