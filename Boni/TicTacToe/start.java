@@ -11,7 +11,7 @@ public class start
         int reihe,spalte;
         while(true)
         {
-                g.DisplayBoard();
+            g.DisplayBoard();
             System.out.println("Spieler " + Spieler + " ist jetzt an der Reihe: ");
             System.out.println("Bitte Feld eingeben: ");
             spalte = sc.nextInt();
