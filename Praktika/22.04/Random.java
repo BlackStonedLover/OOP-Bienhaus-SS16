@@ -2,7 +2,7 @@
 *@author: Konstantin
 *@version: 0.1
 *@date: 24.04.2016
-*@describtion: Ein programm das zwischen 0 und 1 20 Zufällige Werte auswählt und in ein Array speichert. Von den ermittelten Werten
+*@description: Ein programm das zwischen 0 und 1 20 Zufällige Werte auswählt und in ein Array speichert. Von den ermittelten Werten
 *              ermittelt er zugleich den höchsten Wert und gibt diesen zusätzlich am Ende des Programmes aus.              
 */
 import java.lang.Math;
