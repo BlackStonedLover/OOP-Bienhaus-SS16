@@ -1,0 +1,29 @@
+float f = (float) (1.9 * 1.6); // Multiplikation muss in klammern stehen damit beide als float gecastet werden
+                                // Alternative man castet beide als float => (float)1.6 * (float) 1.6;
+                              
+oder 
+float f = 1.9f * 1.6f;
+
+Expoenten
+1.1e7
+oder 
+1.1E7
+
+
+
+i++; => i=1; => i = i + 1;
+i--; => i=1; => i = i - 1;
+=>
+ ++i;
+ --;
+ // Hier wird zuerst  eins dazu addiert und danach * 25 
+ k= 25* ++i;
+  = 25* --i;
+  
+  
+  
+  
+  Fehler in Folie  Seite 20:
+  Richitg wäre:
+  b= (a < 0 ? -a :a;
+  

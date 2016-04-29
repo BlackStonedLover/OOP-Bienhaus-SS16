@@ -1,0 +1,33 @@
+1: package de.thm.mni.oop;
+2: class HelloWorld{                // Die Klasse befindet sich in dem oben genannten Package!
+3:      public static void ( String[] args){ // Eine von außen aufrufbare statische nichts rückgebende Methode
+4:          System.out.println("Hallo Welt");       
+5:      }
+6:  }
+
+=> Erstmal unwichtig 
+class HelloWorld{
+    public static
+    
+    
+    
+    Wichtig=> 
+    void main (String [] args){
+    
+    }
+  }
+  
+  
+  In der Konsole =>
+  > javac HelloWorld.java    -c Test
+  
+  => javac "Helloworld.java" "-c" "Test"
+  
+  javac => Programm
+  Helloworld.java  -c Test => Argumente
+  
+  
+  0 => "Helloworld.java"
+  1 => "-c"
+  2 => "Test"
+  Um mit dem Programm zu "reden".
