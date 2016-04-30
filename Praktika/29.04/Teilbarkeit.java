@@ -1,3 +1,7 @@
+/*
+*Aufgabe 3.2
+*/
+
 public class Teilbarkeit {
     public static void main(String[] args) {
         int x = 10;
