@@ -13,3 +13,19 @@ Unterscheidungskriterien:
     
     3   max (int a, double b)
         max (double a, int b)
+        
+        
+>Nicht< unterschieden
+    -Rückgabetyp
+    -Variablen/Parameternamen
+        int max (int a, int b)          //Nich zulässig
+        int max (int x, int y)          //Nicht zulässig
+        
+Variable Anzahl von Argumenten(variable Parameterliste)
+Bsp: in der main:
+int a = sum(21,42);
+int b = sum(1,2,3);
+int c = sum(2,4,8,16);
+
+public static int sum(int... werte){
+}
