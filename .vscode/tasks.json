@@ -1,0 +1,21 @@
+{
+    "version": "0.1.0",
+    "command": "javac",
+    "showOutput": "silent",    // changed so that the output window doesn't pop up constantly
+    "isShellCommand": true,
+    "args": ["-d","${workspaceRoot}\\target","${workspaceRoot}\\src\\*.java"],
+    "problemMatcher": {
+        "owner": "external",
+        "fileLocation": ["absolute"],
+        "pattern": [
+            {
+                "regexp": "^(.+\\.java):(\\d):(?:\\s+(error)):(?:\\s+(.*))$",
+                "file": 1,
+                "location": 2,
+                "severity": 3,
+                "message": 4
+            }
+        ]
+    }
+}
+

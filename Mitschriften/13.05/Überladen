@@ -1,0 +1,15 @@
+Überladen von Methoden => >gleicher< Methodennamen für mehrere Methoden
+
+Unterscheidungskriterien:
+    -Anzahl Parameter       (1)
+    -Typen der Parameter    (2)
+    -Position der Parameter (3)
+    
+    
+    1   max (int a, int b)
+        max(int a, int b, int c)
+    
+    2   max (double a, double b)
+    
+    3   max (int a, double b)
+        max (double a, int b)
