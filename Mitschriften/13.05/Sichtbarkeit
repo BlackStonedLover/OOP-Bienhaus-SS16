@@ -1,0 +1,17 @@
+Sichtbarkeit, Verdekcne von Variablen
+Bsp: 
+
+    public class Beispiel{
+        static int a = 1;                       // Klassenvariable a
+        
+            pubic static int machdas(int a){    // formale Variable a
+                int b = 2;                      // lokale Variable b
+                return a*b;
+            }
+            
+            pubic static void main (String[] args){
+                int a = 20;                     //lokale Variable a
+                int b = 40;                     // lokale Variable b
+                int c = machdas(a); 
+            }
+    }

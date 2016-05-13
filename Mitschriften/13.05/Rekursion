@@ -1,0 +1,48 @@
+Rekursion
+
+Frage: können Methoden andere Methode aufrufen? Antwort: ja =>
+
+vgl.    int max(int a, int b, int c)
+            {
+                return max(max(a,b),c);
+            }
+
+Methoden können auch sich selbst aufrufen!
+    => Rekursion
+        Bsp: n! Fakultät
+        
+        n! = 1*2*3*...* n
+        
+        public static int fak(int n)
+        {
+         int erg = 1;
+            for(int i = 1; i <= n; i++)
+            {
+                erg= erg * i;
+            }
+            return erg;
+        }
+        
+        [i = 1 erg = 1 ; i=2 erg= 1*2; i=3 erg = 1*2*3]
+        
+rekursive Lösung
+
+    0! =1
+    n! = n * (n - 1)!
+    
+    n! = n * n-1 * n-2 *..... * 1 => (n-1)!
+    
+    
+    => n! =  1 für n = 0;
+          = (n - 1 )! für n > 0;
+          
+
+    public static int fak(int n)
+        {
+            if(n==0)
+            {
+                return 1;
+            }
+            
+            return n * fak(n-1);
+        }
