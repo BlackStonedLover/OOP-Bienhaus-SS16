@@ -26,11 +26,12 @@
       <file leaf-file-name="Taschenrechner.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Taschenrechner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+            <state relative-caret-position="-2482">
+              <caret line="13" column="66" selection-start-line="13" selection-start-column="66" selection-end-line="13" selection-end-column="66" />
               <folding>
-                <element signature="e#2885#2886#0" expanded="true" />
-                <element signature="e#2927#2928#0" expanded="true" />
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#4408#4409#0" expanded="true" />
+                <element signature="e#4450#4451#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -643,12 +644,12 @@
       <option name="presentableId" value="Default" />
       <updated>1463315676243</updated>
       <workItem from="1463315714287" duration="593000" />
-      <workItem from="1463327277571" duration="4193000" />
+      <workItem from="1463327277571" duration="6762000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4786000" />
+    <option name="totallyTimeSpent" value="7355000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -706,19 +707,21 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#2885#2886#0" expanded="true" />
-            <element signature="e#2927#2928#0" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#4408#4409#0" expanded="true" />
+            <element signature="e#4450#4451#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Taschenrechner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        <state relative-caret-position="-2482">
+          <caret line="13" column="66" selection-start-line="13" selection-start-column="66" selection-end-line="13" selection-end-column="66" />
           <folding>
-            <element signature="e#2885#2886#0" expanded="true" />
-            <element signature="e#2927#2928#0" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#4408#4409#0" expanded="true" />
+            <element signature="e#4450#4451#0" expanded="true" />
           </folding>
         </state>
       </provider>
