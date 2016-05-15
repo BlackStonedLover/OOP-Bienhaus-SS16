@@ -24,7 +24,7 @@ public class Taschenrechner {
         Scanner sc = new Scanner(System.in);
 
         /*
-         * Nachfolgender Code wiederholt sich bei jedem durchlauf
+         * Nachfolgender Code wiederholt sich bei jedem Durchlauf
          */
 
         while (berechnung) {
@@ -39,7 +39,7 @@ public class Taschenrechner {
              * Welche Operation durchgeführt werden soll wird hier bestimmt
              */
             switch (Operation) {
-                //Additon
+                //Addition
                 case 1:
                     pl("Die Berechnung:");
                     System.out.println(x + " + " + y + " = " + addi(x, y));
