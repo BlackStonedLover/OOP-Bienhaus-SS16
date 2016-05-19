@@ -3,3 +3,9 @@
 
 # All .class data
 *.class
+
+#ignore for Eclipse
+ +/target/
++.project
++.classpath
++.settings
